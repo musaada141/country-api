@@ -1,0 +1,41 @@
+.navigationTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #ffffff; /* Light mode background color */
+  color: #333333; /* Light mode text color */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+
+
+.dark-mode {
+  background-color: #333333; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.dark-mode-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 2rem;
+}
+
+.dark-mode-button:focus {
+  outline: none;
+}
+
+.dark-mode-button svg {
+  margin-right: 8px;
+}

@@ -1,0 +1,12 @@
+.App {
+    /* Define your light mode background styles here */
+    background-color: #ffffff;
+  }
+  
+  .App.dark-mode {
+    /* Define your dark mode background styles here */
+    background-color: #202020;
+    color: #202020
+  }
+  
+  
